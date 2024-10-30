@@ -1,0 +1,14 @@
+.navbar {
+    margin: 0; /* Elimina margen por defecto */
+}
+
+.navList {
+    display: flex; /* Alinea los elementos de la lista en una fila */
+    list-style: none; /* Elimina los estilos de lista */
+    margin: 0; /* Elimina márgenes para mejor alineación */
+    padding: 0; /* Elimina el padding por defecto */
+}
+
+.navList li {
+    margin: 0 15px; /* Espacio entre los elementos del navbar */
+}

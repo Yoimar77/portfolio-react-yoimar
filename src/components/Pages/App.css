@@ -1,0 +1,11 @@
+body {
+  background-color: #000; /* Color de fondo negro */
+  margin: 0; /* Asegúrate de que no haya márgenes por defecto */
+  color: #fff; /* Color del texto en blanco para contraste */
+}
+
+.container {
+  background-color: #000; /* Asegura que el contenedor también tenga fondo negro */
+  min-height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
+  padding-top: 80px; /* Deja suficiente espacio para el header */
+}

@@ -1,0 +1,15 @@
+.navItem {
+    margin-left: 20px;
+  }
+  
+  .link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .link:hover {
+    color: #ddd; /* Cambia el color al pasar el ratón */
+  }
+  

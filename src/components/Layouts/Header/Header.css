@@ -1,0 +1,15 @@
+.header {
+    display: flex; /* Permite que los elementos se alineen en línea */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* Espacia los elementos entre sí */
+    padding: 20px 40px; /* Agrega espacio interno (20px arriba/abajo, 40px izquierda/derecha) */
+    background-color: #000; /* Color de fondo negro para el header */
+}
+
+.logo {
+    margin: 0; /* Elimina márgenes para mejor alineación */
+    color: #a0c4ff; /* Color azul pastel para el logo */
+    font-weight: 900; /* Grosor más grueso */
+}
+
+  
