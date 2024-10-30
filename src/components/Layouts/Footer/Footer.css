@@ -1,0 +1,17 @@
+
+.footer {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 20px 0; /* Espaciado superior e inferior */
+    text-align: center; /* Centra el texto */
+  }
+  
+  .footer-content {
+    margin-bottom: 10px; /* Espaciado inferior */
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #a0c4ff; /* Línea divisoria superior */
+    padding-top: 10px; /* Espaciado superior */
+  }
+  

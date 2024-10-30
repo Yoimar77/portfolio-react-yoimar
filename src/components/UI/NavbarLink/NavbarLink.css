@@ -1,15 +1,11 @@
-.navItem {
-    margin-left: 20px;
-  }
-  
-  .link {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
-  
-  .link:hover {
-    color: #ddd; /* Cambia el color al pasar el ratón */
-  }
-  
+/* NavbarLink.css */
+.link {
+  color: #fff; /* Asegura que el color sea blanco para las otras secciones */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #a0c4ff; /* Color al pasar el ratón para las otras secciones */
+}

@@ -1,0 +1,37 @@
+.aboutme {
+  display: flex; /* Usar Flexbox para centrar */
+  flex-direction: column; /* Coloca los elementos en columna */
+  align-items: center; /* Centra los elementos horizontalmente */
+  justify-content: center; /* Centra los elementos verticalmente */
+  text-align: center;
+  padding: 40px;
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+  background-color: #fff; /* Fondo blanco */
+}
+
+.aboutme h2 {
+  color: #000;
+}
+
+p {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.cv-button {
+  display: inline-block; /* Hace que el enlace se comporte como un bloque */
+  padding: 10px 20px; /* Espacio dentro del botón */
+  background-color: #a0c4ff; /* Color de fondo azul pastel */
+  color: #000; /* Color del texto */
+  font-weight: bold; /* Grosor del texto */
+  text-decoration: none; /* Elimina subrayado */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición para el color de fondo */
+  margin-top: 20px; /* Espacio superior para separar del texto */
+}
+
+.cv-button:hover {
+  background-color: #89a8e0; /* Color más oscuro al pasar el ratón */
+}
+
+

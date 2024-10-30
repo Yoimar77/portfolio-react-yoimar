@@ -1,41 +1,31 @@
 .home {
   display: flex;
-  align-items: center; /* Centra verticalmente */
-  justify-content: center; /* Centra horizontalmente */
-  height: 100vh; /* Hace que el contenedor ocupe todo el alto de la ventana */
-  padding: 20px;
-  color: #fff; /* Color de texto blanco para contraste */
-  text-align: center; /* Asegura que el texto dentro del contenedor se centre */
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+  width: 100vw; /* Asegura que el ancho ocupe el 100% de la ventana */
+  padding: 0; /* Asegúrate de que no haya padding */
+  color: #fff;
+  text-align: center;
+  background-color: #000; /* Fondo negro */
 }
 
 .profile-photo {
-  width: 300px;
-  height: 300px; 
-  border-radius: 50%; /* Hace que la imagen sea circular */
-  margin-right: 20px; /* Espacio entre la foto y el texto */
+  width: 300px; /* Ajusta el tamaño según sea necesario */
+  height: 300px; /* Debe ser igual a la anchura para mantener la forma circular */
+  border-radius: 50%; /* Hace que la imagen sea redonda */
+  object-fit: cover; /* Asegura que la imagen cubra todo el área sin distorsión */
+  border: 2px solid #fff; /* Agrega un borde blanco opcional alrededor de la imagen */
 }
 
-.greeting {
-  display: flex;
-  flex-direction: column; /* Alinea el texto verticalmente */
-  align-items: center; /* Centra horizontalmente el texto */
+.greeting h2 {
+  font-weight: 100; /* Grosor para "Hola" y "Analista y Desarrollador" */
+  color: #fff; /* Color blanco para los h2 */
 }
 
-.hello {
-  margin: 0; /* Elimina márgenes para mejor alineación */
-  font-weight: 100; /* Grosor normal */
-}
-
-.name {
-  margin: 5px 0; /* Espaciado vertical entre líneas */
-  font-weight: 900; /* Grosor más grueso */
-  color: #a0c4ff; /* Azul pastel */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para más prominencia */
-  letter-spacing: 0.5px; /* Espaciado adicional entre letras */
-  font-size: 2rem; /* Aumenta el tamaño de la fuente si es necesario */
-}
-
-.job-title {
-  margin: 5px 0; /* Espaciado vertical entre líneas */
-  font-weight: 500; /* Grosor normal */
+.highlight {
+  font-weight: 800; /* Grosor alto para tu nombre */
+  color: #a0c4ff; /* Color azul para tu nombre */
+  font-size: 2rem; /* Aumenta el tamaño de la fuente (ajusta según sea necesario) */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega una sombra al texto */
 }

@@ -7,5 +7,15 @@ body {
 .container {
   background-color: #000; /* Asegura que el contenedor también tenga fondo negro */
   min-height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
-  padding-top: 80px; /* Deja suficiente espacio para el header */
+  padding-top: 80px; /* Asegúrate de que sea suficiente para el header, ajusta si es necesario */
+  width: 100%; /* Asegura que el ancho ocupe el 100% de la ventana */
+  margin: 0; /* Asegúrate de que no haya márgenes */
+}
+
+html, body {
+  height: 100%; /* Asegúrate de que el body ocupe toda la altura */
+  margin: 0; /* Elimina márgenes por defecto */
+  padding: 0; /* Elimina padding por defecto */
+  background-color: #000; /* Color de fondo negro */
+  color: #fff; /* Color del texto en blanco para contraste */
 }
